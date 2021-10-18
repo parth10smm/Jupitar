@@ -22,8 +22,12 @@ int gcd(int a, int b)
 
 // Driver program to test above function
 int main()
-{
-	int a = 98, b = 56;
-	cout<<"GCD of "<<a<<" and "<<b<<" is "<<gcd(a, b);
+{	
+	int a,b;
+	cout<<"Enter first value : ";
+	cin>>a;
+	cout<<"\nEnter second value : ";
+	cin>>b;
+	cout<<"\nGCD of "<<a<<" and "<<b<<" is "<<gcd(a, b);
 	return 0;
 }
